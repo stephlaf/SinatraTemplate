@@ -1,1 +1,9 @@
-<h2>Artists</h2>
+<div class="container container-width-70">
+  <h2><%= @message %></h2>
+
+  <form class="my-3" action="/things" method="post">
+    <label for="homeForm1" class="form-label">Find someone on GitHub 🕵️‍♀️</label>
+    <input type="text" name="query" class="form-control" id="homeForm1">
+    <input type="submit">
+  </form>
+</div>
